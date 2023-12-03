@@ -10,7 +10,7 @@ function LikeDislikeButtons({upvotes, increaseUpvotes, downvotes, increaseDownvo
     function countDownvotes(){
         console.log("clicked")
         const currentDownvotes = downvotes + 1;
-        increaseDownvotes(currentDownvotes);
+        increaseDownvotes(currentDownvotes);s
     }
 
     return (
